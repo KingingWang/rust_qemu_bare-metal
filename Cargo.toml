@@ -1,0 +1,17 @@
+[package]
+name = "qemu_bare"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arm-pl011-uart = "=0.3.1"
+spin = "0.10.0"
+
+[lib]
+name = "my_println"
+path = "src/lib.rs"
+
+[[example]]
+name = "hello"
+path = "examples/hello.rs"
+
