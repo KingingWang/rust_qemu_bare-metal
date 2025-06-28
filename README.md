@@ -18,12 +18,11 @@ This project is suitable for Rust beginners to experience ARM bare-metal develop
 ## 🚀 使用方法 / Usage  
 ### 编译示例 / Build Example  
 ```bash
-# 编译 hello 示例
+rustup target add aarch64-unknown-none-softfloat
 cargo build --example hello
-# 编译 panic 处理示例
-cargo build --example panic_handler
+```
 QEMU 运行 / Run in QEMU
-```bash
+````bash
 qemu-system-aarch64 \
   -machine virt \
   -m 1024M \
@@ -33,7 +32,9 @@ qemu-system-aarch64 \
 ```
 
 🖥️ 运行输出示例 / Example Output
+```bash
 Hello, world!
+```
 
 📂 项目结构 / Project Structure
 ```
