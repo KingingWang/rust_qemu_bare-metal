@@ -15,14 +15,18 @@ This project is suitable for Rust beginners to experience ARM bare-metal develop
 ✅ Directly executable ELF on QEMU virt machine  
 ✅ Minimal boot sequence
 ---
+
 ## 🚀 使用方法 / Usage  
 ### 编译示例 / Build Example  
+
 ```bash
 rustup target add aarch64-unknown-none-softfloat
 cargo build --example hello
 ```
+
 QEMU 运行 / Run in QEMU
-````bash
+
+```bash
 qemu-system-aarch64 \
   -machine virt \
   -m 1024M \
