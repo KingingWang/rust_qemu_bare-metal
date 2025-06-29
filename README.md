@@ -7,13 +7,16 @@ This project is suitable for Rust beginners to experience ARM bare-metal develop
 ✅ 预配置`println!`宏支持（无需OS依赖）  
 ✅ 生成可直接在QEMU运行的ELF文件  
 ✅ 精简启动流程
+
 ---
 ## 🇺🇸 English Introduction  
-**Beginner-friendly template** for baremetal Rust development on AArch64:  
+**Beginner-friendly template** for baremetal Rust development on AArch64: 
+
 ✅ No `std` support - uses only `core` and `alloc`  
 ✅ Pre-configured `println!` macro (no OS required)  
 ✅ Directly executable ELF on QEMU virt machine  
 ✅ Minimal boot sequence
+
 ---
 
 ## 🚀 使用方法 / Usage  
@@ -57,10 +60,11 @@ Hello, world!
     ├── start.s
     └── uart_console.rs
 ```
-📜 许可证 / License
-本项目采用 MIT许可证 - 详见 LICENSE 文件
 
-This project is licensed under MIT License - see LICENSE
+📜 许可证 / License
+本项目采用 APACH许可证 - 详见 LICENSE 文件
+
+This project is licensed under APACH License - see LICENSE
 
 提示：首次使用需安装目标平台：
 
